@@ -1,0 +1,214 @@
+/*Overall Design*/ 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #edf0f1;
+	font-family: copperplate;
+	font-size: 16pt;
+	scroll-behavior: smooth;
+}
+
+/*Other text colors*/
+h1 {
+	color: red;
+}
+h2 {
+	color: #37C344;
+}
+
+/*Banner*/
+.banner {
+	background-image: url(matrix.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 100px;
+	line-height: 100px;
+	color: red;
+	text-align: center;
+	font-size: 50pt;
+}
+
+/*Logo*/
+.logo {
+	margin-top: 20px;
+	width: 160px;
+	height: 80px;
+}
+
+.logo img {
+	width: 160px;
+	height: 80px;
+}
+
+/*Navigation*/
+nav {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 5%;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+nav ul li a {
+	transition: all 0.3s ease 0s;
+}
+
+nav ul li a:link, a[href]:link {
+	color: #FF0000;
+}
+
+nav ul li a:visited, a[href]:visited {
+	color: #028A0F;
+}
+
+nav ul li a:hover, a[href]:hover {
+	color: #37C344;
+}
+
+nav ul li a:active, a[href]:active {
+	color: #8AF4A1;
+}
+
+/*Lab 4*/
+#main-heading {
+	text-align: center;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #37c344;
+}
+
+/*Photos*/
+#hacking {
+	float: right;
+	margin: 10px;
+	width: 400px;
+	height: 200px;
+}
+
+#photo {
+	float: left;
+	margin-right: 100%;
+	width: 230px;
+	height: 210px;
+	filter: blur(5px);
+}
+
+#photo:hover {
+	filter: blur(0px);
+	transition: 1s;
+}
+
+iframe {
+	width: 300px;
+	height: 150px;
+	border: 0;
+	margin-bottom: 40px;
+}
+
+/*Text-related*/
+.main_content, aside, footer {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.main_content, #task, #requirements, #submission, #grading {
+	margin-top: 20px;
+}
+
+strong {
+	color: red;
+}
+
+.list {
+	margin-top: 10px;
+}
+
+.par {
+	margin-top: 30px;
+}
+
+#listi::after {
+	content: "\a";
+	white-space: pre;
+}
+
+/*Criteria table*/
+table {
+	background-color: #171717;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+th {
+	color: red;
+	background-color: #171717;
+}
+
+td {
+	background-color: #171717;
+}
+
+/*Deadline*/
+#deadline::before, #deadline::after {
+	content: "\a";
+	white-space: pre;
+}
+
+/*Dummy Content*/
+.lorem {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	background-color: #171717;
+}
+
+.lorem1 {
+	width: 30%;
+	background-color: #171717;
+}
+
+.lorem2 {
+	background-color: #171717;
+}
+
+#loremore {
+	background-color: #171717;
+}
+
+/*footer*/
+.contacts, .categories, .quick_links {
+	margin-top: 40px;
+	float: left;
+}
+
+.contacts, .categories {
+	margin-right: 5%;
+}
+
+.categories, .quick_links {
+	margin-left: 5%;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+}
+
