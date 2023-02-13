@@ -6,7 +6,7 @@
 	background-color: #000000;
 	color: #edf0f1;
 	font-family: copperplate;
-	font-size: 20pt;
+	font-size: 16pt;
 	scroll-behavior: smooth;
 }
 
@@ -28,7 +28,7 @@ h2 {
 	line-height: 100px;
 	color: red;
 	text-align: center;
-	font-size: 40pt;
+	font-size: 50pt;
 }
 
 /*Logo*/
@@ -121,8 +121,8 @@ iframe {
 
 /*Text-related*/
 .main_content, aside, footer {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 .main_content, #task, #requirements, #submission, #grading {
@@ -181,7 +181,7 @@ td {
 }
 
 .lorem1 {
-	width: 100%;
+	width: 30%;
 	background-color: #171717;
 }
 
@@ -191,11 +191,6 @@ td {
 
 #loremore {
 	background-color: #171717;
-}
-
-.dum-item {
-	margin-right: 10px;
-	margin-left: 10px;
 }
 
 /*footer*/
@@ -217,125 +212,3 @@ footer {
 	justify-content: space-between;
 }
 
-/*phone*/
-@media (max-width: 767px) {
-
-	* {
-		font-size: 16pt;
-	}
-
-	.mc-box, .a-box, .f-box {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	.banner {
-		color: green;
-	}
-
-	.mc-box-task {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: ;
-	}
-
-	#hacking {
-		max-width: 100%;
-		width: 100%;
-		height: auto;
-		margin: 0;
-		margin-bottom: 5%;
-	}
-
-	#photo {
-		max-width: 100%;
-		height: auto;
-		width: 100%;
-	}
-
-	.dum-box {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		align-content: center;
-	}
-
-	.dum-item {
-		margin-top: 1%;
-		margin-bottom: 1%;
-	}
-
-	.f-box {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-	}
-
-	iframe {
-		width: 400px;
-		height: 200px;
-	}
-
-}
-
-/*tablet*/
-@media (min-width: 768px) and (max-width: 1023px) {
-
-	* {
-		font-size: 18pt;
-	}
-
-	.banner {
-		color: orange;
-	}
-
-	#hacking {
-		max-width: 100%;
-		height: auto;
-		width: 50%;
-	}
-
-	#photo {
-		width: 40%;
-		height: auto;
-	}
-
-	.mc-box, .a-box, .f-box {
-		margin-left: 10%;
-		margin-right: 10%;
-		font-size: 18pt;
-	}
-
-	.f-box {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-	}
-
-	iframe {
-		width: 500px;
-		height: 200px;
-	}
-}
-
-@media (min-width: 1024px) {
-
-	* {
-		font-size: 20pt;
-	}
-
-	#hacking {
-		max-width: 100%;
-		width: 60%;
-		height: auto;
-	}
-
-	#photo {
-		width: 50%;
-		height: auto;
-	}
-}
